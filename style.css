@@ -1,0 +1,466 @@
+[class*="col-"] {
+	width: 100%;
+}
+
+@media only screen and (max-width: 950px) {
+.gambar{
+	width: 159px;
+	height: 267px;
+	margin-top: 70px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.gambar{
+	float: left;
+}
+.save{
+	width: 20px;
+	padding: 0px;
+}
+.cancel{
+	width: 20px;
+	padding: 0px;
+}
+}
+
+
+
+@font-face {
+	font-family: digital;
+	src: url(digital-7/digital-7.ttf) format("truetype");
+}
+
+.deret{
+	display: inline-block;
+}
+
+.header{
+	background-color: black;
+}
+
+.border{
+	border-bottom: solid black 1px;
+	width: 98%;
+	margin-left: 1%;
+}
+
+.quotes{
+	margin-top: 15px;
+}
+
+.bottom{
+	margin-bottom: 15px;
+}
+
+.headertext{
+	margin-left: 1%;
+}
+
+.hello{
+	font-family: comic sans ms;
+}
+
+.quotestext{
+	font-size: 15px;
+	font-family: lucida handwriting;
+}
+
+.hello2 {
+	float: right;
+	font-family: digital;
+	color: red;
+	background-color: black;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+
+.namainput {
+	float: left;
+	width: 98%;
+	margin-right: 15px;
+}
+
+.niminput {
+	float: left;
+	width: 98%;
+	margin-right: 15px;
+
+}
+
+.alamatinput {
+	float: left;
+	width: 98%;
+	margin-right: 15px;
+
+}
+
+.nimedit {
+	width: 60%;
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-top: -5px;
+}
+
+.namaedit {
+	width: 60%;
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-top: -5px;
+}
+
+.alamatedit {
+	width: 60%;
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-top: -5px;
+}
+
+.numberinput {
+	width: 30px;
+}
+
+table,th,td{
+	border : solid black 1px;
+	border-collapse: collapse;
+}
+
+.reset {
+	background-color: #E7B900;
+	border : none;
+	float: right; 
+	cursor: pointer;
+	padding: 4px;
+	margin-right: 15px;
+}
+
+.tambah {
+	background-color: #03D300;
+	border : none;
+	cursor: pointer;
+	padding: 4px; 
+	float: right;
+	margin-right: 15px;
+}
+
+.reset:hover {
+	background-color: #FFD427;
+	transition: 0.3s;
+	transform: scale(1.05);
+}
+
+.tambah:hover {
+	background-color: #1DFF1A;
+	transition: 0.3s;
+	transform: scale(1.05);
+}
+
+.input {
+	padding-bottom: 40px;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+}
+
+
+.kontentambah {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 25%;
+  border-radius: 5px;
+}
+
+
+.span {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: -20px;
+  margin-right: -10px;
+  size: 10px
+}
+
+.span:hover,
+.span:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.kontenhapus {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 25%;
+  border-radius: 5px;
+}
+
+.span1 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.span1:hover,
+.span1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.headertambah {
+	background-color: #20B900;
+	color: white;
+	padding: 15px;
+	width: 103%;
+	margin-left: -20px;
+	margin-top: -20px;
+}
+
+
+.kontenedit {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 5px;
+}
+
+
+.save {
+	color: white;
+	width: 70px;
+	background-color: #00AAEF;
+	padding: 5px;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-top: 20px;
+	border: none;
+	height: 30px;
+	cursor: pointer;
+}
+
+.cancel {
+	color: white;
+	width: 70px;
+	background-color: #717171;
+	padding: 5px;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-top: 20px;
+	border: none;
+	height: 30px;
+	cursor: pointer;
+}
+
+.kontenedit {
+	width: 30%;
+}
+
+.inputedit {
+	height: 100%;
+}
+
+.color1{
+	background-color: #F7D100;
+}
+
+.color2{
+	background-color: #0D1F7D;
+	color: white;
+	border-radius: 15px;
+	margin-top: 5px;
+}
+
+.form{
+	margin-left: 10px;
+}
+
+.edit{
+	background-color: #0093FF;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.edit:hover {
+	background-color: #48B1FE;
+	transition: 0.3s;
+	transform: scale(1.05);
+}
+
+.delete{
+	background-color: red;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.delete:hover {
+	background-color: #FF4747;
+	transition: 0.3s;
+	transform: scale(1.05);
+}
+
+th{
+	text-align: left;
+	background-color: #5D0085;
+	color: white;
+}
+
+tr{
+	background-color: #FD6DFB;
+}
+
+.headerhapus {
+	background-color: red;
+	color: white;
+	padding: 15px;
+	width: 103%;
+	margin-left: -20px;
+	margin-top: -20px;
+}
+
+
+.span2 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.span2:hover,
+.span2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#nimedit {
+	padding: 7px;
+}
+
+#namaedit {
+	padding: 7px;
+}
+
+#alamatedit {
+	padding: 7px;
+}
+
+.kontenwarning {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 25%;
+}
+
+.headerwarning {
+	background-color: #FFD800;
+	color: white;
+	padding: 15px;
+	width: 103%;
+	margin-left: -20px;
+	margin-top: -20px;
+}
+
+.kontenupdate {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 25%;
+}
+
+.headerupdate {
+	background-color: #00AAFF;
+	color: white;
+	padding: 15px;
+	width: 103%;
+	margin-left: -20px;
+	margin-top: -20px;
+}
+
+.span3 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: -20px;
+  margin-right: -10px;
+  size: 10px
+}
+
+.span3:hover,
+.span3:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.span4 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: -20px;
+  margin-right: -10px;
+  size: 10px
+}
+
+.span4:hover,
+.span4:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.inputtitle {
+	text-align: center;
+	border: solid  black 1px;
+	border-radius: 15px;
+	padding: 10px;
+	background-color: #000842;
+}
+
+.revisi {
+	margin-top: -1%;
+}
+
+.inpbor{
+    border-bottom: solid black 1px;
+    width: 70%;
+}
+
+.gambar{
+	transition: 0.5s;
+	padding-top: 10px;
+	float: right;
+	margin-right: 40px;
+}
+
+
+.gambar:hover{
+	transform: scale(1.03);
+}
+

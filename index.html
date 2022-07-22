@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Mahasiswa</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="color1" onload="startTime()">
+<div class="header">
+	<div class="headertext">
+	<h3 class="deret" style="color: #00B512">DATA</h3> <h3 class="deret" style="color: #B500A6">MAHASISWA</h3> <h3 class="deret" style="color: #0035FF">||</h3>
+    <h1 id="jam" class="hello2 deret">JAM</h1>
+	</div>
+</div>
+<div class="hello border">
+	<h3 class="hello1 deret">Hello, 世界 !</h3>
+</div>
+<div class="quotes border">
+	<h3 class="bottom quotestext">
+	Usaha keras tidak akan mengkhianati hasil, tapi bisa mengkhianati impian.
+	</h3>
+</div>
+<div class="input inpbor deret border color2">
+    <div class="revisi">
+	<h2 class="inputtitle">MASUKKAN DATA ANDA</h2>
+	<form id="form" class="form">
+	<div class="nim">
+		<p class="nimtext deret">NIM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><br>
+		<input type="number" class="niminput" id="nim" placeholder="Nomor Induk Mahasiswa"><br><br>
+	</div>
+	<div class="nama">
+		<p class="namatext deret">Nama Lengkap</p><br>
+		<input type="text" class="namainput" id="nama" placeholder="Nama Lengkap"><br><br>
+	</div>
+	<div class="alamat">
+		<p class="alamattext deret">Alamat</p><br>
+		<input type="text" class="alamatinput" id="alamat" placeholder="Alamat Tempat Tinggal Asal"><br><br><br>
+	</div>
+	<button id="reset" class="reset deret tombol" type="reset">&#8634;Reset</button>
+	</form>
+	<button class="tambah deret tombol" onclick="tambah()" type="submit">&#10010;Tambah</button>
+    </div>
+</div>
+<img class="gambar" src="hihihi.png" onMouseOver="this.src='logoumn.png';" onMouseOut="this.src='hihihi.png'">
+
+	<div class="border" style="margin-top: 20px">
+        <table id="isitabel" style="width: 100%">
+            <thead>
+                <tr>
+                    <th style="width: 10%;">NIM</th>
+                    <th style="width: 30%;">Nama</th>
+                    <th style="width: 50%;">Alamat</th>
+                    <th style="width: 10%;">Pengaturan</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+        <div id="modaltambah" class="modal">
+        	<div class="kontentambah">
+        		<span class="span">&times;</span>
+        		<h3 class="headertambah">Added!</h3>
+        		<p class="biru">Data Mahasiswa Baru Telah Ditambahkan.</p>
+        		<p></p>
+        	</div>
+        </div>
+
+        <div id="modalHapus" class="modal">
+        	<br><br>
+        	<div class="kontenhapus">
+        		<span class="span1">&times;</span>
+        		<h3 class="headerhapus">Deleted!</h3>
+        		<p class="isimodal">Data Mahasiswa Berhasil Dihapus.</p>
+        		<p></p>
+        	</div>
+        </div>
+
+        <div id="modalEdit" class="modal">
+        	<div class="kontenedit">
+        	<div class="editHeader">
+        		<span class="span2">&times;</span>
+        		<h2 class="editdata">Edit Data</h2>
+        	</div>
+        	<div class="inputedit">
+        		<label for="nimedit">NIM</label><br><br>
+        		<input id="nimedit" class="nimedit" type="text" disabled><br>
+        		<label for="namaedit">Nama Lengkap</label><br><br>
+        		<input id="namaedit" class="namaedit" type="text"><br>
+        		<label for="alamatedit">Alamat</label><br><br>
+        		<input id="alamatedit" class="alamatedit" type="text"><br>
+        		<button id="cancel" class="cancel" onclick="closeedit1()">&#10006;Cancel</button>
+        		<button id="save" class="save">&#128190;Save</button>
+        	</div>
+        </div>
+    </div>
+
+    <div id="modalWarning" class="modal">
+        	<div class="kontenwarning">
+        		<span class="span3">&times;</span>
+        		<h3 class="headerwarning">Warning!</h3>
+        		<p class="isimodal">Tidak Dapat Menambah Mahasiswa.</p>
+        		<p></p>
+        	</div>
+        </div>
+
+     <div id="modalUpdate" class="modal">
+      	<div class="kontenupdate">
+        		<span class="span4">&times;</span>
+        		<h3 class="headerupdate">Updated!</h3>
+        		<p class="isimodal">Data Mahasiswa Berhasil Diperbaharui.</p>
+        		<p></p>
+        	</div>
+        </div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+
